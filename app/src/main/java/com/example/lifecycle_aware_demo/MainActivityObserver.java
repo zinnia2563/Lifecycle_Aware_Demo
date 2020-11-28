@@ -29,6 +29,7 @@ public class MainActivityObserver implements LifecycleObserver {
 
     @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
 
+
     public void onResumeEvent() {
 
         Log.i(TAG, "Observer ON_RESUME");
